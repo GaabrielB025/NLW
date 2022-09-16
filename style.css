@@ -113,7 +113,7 @@ section:nth-child(2) {
 }
 
 section:nth-child(3) {
-    animation-delay: .7s;
+    animation-delay: .5s;
 }
 
 @keyframes fromTop {
@@ -131,11 +131,11 @@ section:nth-child(3) {
 @keyframes fromBottom {
     from{
         opacity: 0;
-        transform: translateX(-30px)
+        transform: translateY(30px)
     }
 
     to{ 
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
